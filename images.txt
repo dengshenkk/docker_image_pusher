@@ -1,140 +1,88 @@
-#nginx
-#支持私库
-#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-#xhofe/alist:latest
-#支持指定架构
-#--platform=linux/arm64 xiaoyaliu/alist
-
-
-# Web服务器
-
-nginx  # Nginx Web服务器 (10.4B)
-apache # Apache Web服务器 (6.3B)
-lighttpd # Lighttpd Web服务器 (2.5B)
-httpd # Apache HTTP Server (2.3B)
-
-# 数据库
-
-mysql # MySQL关系型数据库 (8.4B)
-postgres # PostgreSQL关系型数据库 (6.3B)
-mariadb # MariaDB关系型数据库 (3.8B)
-mongodb # MongoDB NoSQL数据库 (3.5B)
-cassandra # Apache Cassandra NoSQL数据库 (3.2B)
-
 # 编程语言
 
-python # Python编程语言 (4.2B)
-node # Node.js JavaScript运行环境 (4.1B)
-java # Java编程语言 (3.9B)
-ruby # Ruby编程语言 (2.5B)
-php # PHP编程语言 (2.3B)
+python:3.10-alpine # Python编程语言 (4.2B)
+node:20-alpine # Node.js JavaScript运行环境 (4.1B)
+node:14-alpine # Node.js JavaScript运行环境 (4.1B)
+golang:1.17-alpine # Go编程语言 (3.9B)
+#java # Java编程语言 (3.9B)
+#ruby # Ruby编程语言 (2.5B)
+#php # PHP编程语言 (2.3B)
 
 # 消息队列
 
-rabbitmq # RabbitMQ消息队列 (3.4B)
-apache-kafka # Apache Kafka消息队列 (2.9B)
-activemq # Apache ActiveMQ消息队列 (2.2B)
-zeromq # ZeroMQ消息队列 (1.9B)
-beanstalkd # Beanstalkd消息队列 (1.6B)
+#rabbitmq # RabbitMQ消息队列 (3.4B)
+#apache-kafka # Apache Kafka消息队列 (2.9B)
+#activemq # Apache ActiveMQ消息队列 (2.2B)
+#zeromq # ZeroMQ消息队列 (1.9B)
+#beanstalkd # Beanstalkd消息队列 (1.6B)
 
 # 搜索引擎
 
-solr # Apache Solr搜索引擎 (3.3B)
-elasticsearch # Elasticsearch搜索引擎 (3.0B)
-splunk # Splunk搜索引擎 (2.2B)
-graylog # Graylog搜索引擎 (1.9B)
-kibana # Kibana数据可视化工具 (2.9B)
+#solr # Apache Solr搜索引擎 (3.3B)
+#elasticsearch # Elasticsearch搜索引擎 (3.0B)
+#splunk # Splunk搜索引擎 (2.2B)
+#graylog # Graylog搜索引擎 (1.9B)
+#kibana # Kibana数据可视化工具 (2.9B)
 
 # 自动化构建工具
 
-jenkins # Jenkins自动化构建工具 (3.6B)
-travis # Travis CI自动化构建工具 (2.5B)
-circleci # CircleCI自动化构建工具 (2.2B)
-gitlab-ci # GitLab CI自动化构建工具 (1.9B)
-bitbucket-pipelines # Bitbucket Pipelines自动化构建工具 (1.6B)
+#jenkins # Jenkins自动化构建工具 (3.6B)
+#travis # Travis CI自动化构建工具 (2.5B)
+#circleci # CircleCI自动化构建工具 (2.2B)
+#gitlab-ci # GitLab CI自动化构建工具 (1.9B)
+#bitbucket-pipelines # Bitbucket Pipelines自动化构建工具 (1.6B)
 
 # 配置管理
 
-zookeeper # Apache ZooKeeper配置管理 (3.1B)
-etcd # etcd配置管理 (2.5B)
-consul # Consul配置管理 (2.2B)
-vault # Vault配置管理 (1.9B)
-ansible # Ansible配置管理 (1.6B)
+#zookeeper # Apache ZooKeeper配置管理 (3.1B)
+#etcd # etcd配置管理 (2.5B)
+#consul # Consul配置管理 (2.2B)
+#vault # Vault配置管理 (1.9B)
+#ansible # Ansible配置管理 (1.6B)
 
 # 数据可视化工具
 
-kibana # Kibana数据可视化工具 (2.9B)
-grafana # Grafana数据可视化工具 (2.2B)
-tableau # Tableau数据可视化工具 (1.9B)
-powerbi # Power BI数据可视化工具 (1.6B)
-d3.js # D3.js数据可视化工具 (1.4B)
+#kibana # Kibana数据可视化工具 (2.9B)
+#grafana # Grafana数据可视化工具 (2.2B)
+#tableau # Tableau数据可视化工具 (1.9B)
+#powerbi # Power BI数据可视化工具 (1.6B)
+#d3.js # D3.js数据可视化工具 (1.4B)
 
 # Docker和Kubernetes
 
-docker # Docker容器引擎 (4.3B)
-kubernetes # Kubernetes容器编排 (3.5B)
-openshift # OpenShift容器平台 (2.9B)
-cloud-foundry # Cloud Foundry容器平台 (2.2B)
+#docker # Docker容器引擎 (4.3B)
+#kubernetes # Kubernetes容器编排 (3.5B)
+#openshift # OpenShift容器平台 (2.9B)
+#cloud-foundry # Cloud Foundry容器平台 (2.2B)
 
 # 安全
 
-clair # Clair安全扫描工具 (1.9B)
-coreos/clair # CoreOS Clair安全扫描工具 (1.6B)
-anchore # Anchore安全扫描工具 (1.4B)
-docker-bench # Docker Bench安全扫描工具 (1.2B)
+#clair # Clair安全扫描工具 (1.9B)
+#coreos/clair # CoreOS Clair安全扫描工具 (1.6B)
+#anchore # Anchore安全扫描工具 (1.4B)
+#docker-bench # Docker Bench安全扫描工具 (1.2B)
 
 # 监控
 
-prometheus # Prometheus监控工具 (2.9B)
-grafana # Grafana监控工具 (2.2B)
-newrelic # New Relic监控工具 (1.9B)
-datadog # Datadog监控工具 (1.6B)
-sensu # Sensu监控工具 (1.4B)
+#prometheus # Prometheus监控工具 (2.9B)
+#grafana # Grafana监控工具 (2.2B)
+#newrelic # New Relic监控工具 (1.9B)
+#datadog # Datadog监控工具 (1.6B)
+#sensu # Sensu监控工具 (1.4B)
 
 # 存储
 
-ceph # Ceph分布式存储 (2.5B)
-gluster # Gluster分布式存储 (2.2B)
-nfs # NFS网络文件系统 (1.9B)
-samba # Samba网络文件系统 (1.6B)
-minio # Minio对象存储 (1.4B)
+#ceph # Ceph分布式存储 (2.5B)
+#gluster # Gluster分布式存储 (2.2B)
+#nfs # NFS网络文件系统 (1.9B)
+#samba # Samba网络文件系统 (1.6B)
+#minio # Minio对象存储 (1.4B)
 
-# 网络
-
-nginx # Nginx Web服务器 (10.4B)
-apache # Apache Web服务器 (6.3B)
-lighttpd # Lighttpd Web服务器 (2.5B)
-haproxy # HAProxy负载均衡 (2.2B)
-traefik # Traefik负载均衡 (1.9B)
 
 # 开发工具
 
-git # Git版本控制工具 (2.5B)
-svn # SVN版本控制工具 (1.9B)
-jenkins # Jenkins自动化构建工具 (3.6B)
-travis # Travis CI自动化构建工具 (2.5B)
-circleci # CircleCI自动化构建工具 (2.2B)
-
-# 测试
-
-selenium # Selenium自动化测试工具 (2.5B)
-cucumber # Cucumber自动化测试工具 (1.9B)
-junit # JUnit自动化测试工具 (1.6B)
-testng # TestNG自动化测试工具 (1.4B)
-pytest # Pytest自动化测试工具 (1.2B)
-
-# 操作系统
-
-ubuntu # Ubuntu Linux操作系统 (5.6B)
-centos # CentOS Linux操作系统 (4.8B)
-debian # Debian Linux操作系统 (3.5B)
-fedora # Fedora Linux操作系统 (2.9B)
-opensuse # openSUSE Linux操作系统 (2.2B)
-
-# 云
-
-aws-cli # AWS CLI工具 (1.9B)
-azure-cli # Azure CLI工具 (1.6B)
-google-cloud-sdk # Google Cloud SDK工具 (1.4B)
-digitalocean # DigitalOcean CLI工具 (1.2B)
-linode # Linode CLI工具 (1.0B)
+#git # Git版本控制工具 (2.5B)
+#svn # SVN版本控制工具 (1.9B)
+#jenkins # Jenkins自动化构建工具 (3.6B)
+#travis # Travis CI自动化构建工具 (2.5B)
+#circleci # CircleCI自动化构建工具 (2.2B)
