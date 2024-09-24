@@ -1,88 +1,198 @@
 # 编程语言
 
-python:3.10-alpine # Python编程语言 (4.2B)
-node:20-alpine # Node.js JavaScript运行环境 (4.1B)
-node:14-alpine # Node.js JavaScript运行环境 (4.1B)
-golang:1.17-alpine # Go编程语言 (3.9B)
-#java # Java编程语言 (3.9B)
-#ruby # Ruby编程语言 (2.5B)
-#php # PHP编程语言 (2.3B)
+
+# Python编程语言 (4.2B)
+python:3.10-alpine
+
+# Node.js JavaScript运行环境 (4.1B)ine
+node:20-alpine
+
+# Node.js JavaScript运行环境 (4.1B)
+node:14-alpine
+
+# Go编程语言 (3.9B) golang:<version>-alpine
+golang:1.23-alpine
+
+# Java编程语言 (3.9B):1.17-alpine
+#java
+
+# Ruby编程语言 (2.5B)
+#ruby
+
+# PHP编程语言 (2.3B)
+#php
 
 # 消息队列
 
-#rabbitmq # RabbitMQ消息队列 (3.4B)
-#apache-kafka # Apache Kafka消息队列 (2.9B)
-#activemq # Apache ActiveMQ消息队列 (2.2B)
-#zeromq # ZeroMQ消息队列 (1.9B)
-#beanstalkd # Beanstalkd消息队列 (1.6B)
+
+# RabbitMQ消息队列 (3.4B)
+#rabbitmq
+
+# Apache Kafka消息队列 (2.9B)
+#apache-ka
+
+# Apache ActiveMQ消息队列 (2.2B)fka
+#activem
+
+# ZeroMQ消息队列 (1.9B)q
+#zeromq
+
+# Beanstalkd消息队列 (1.6B)
+#beanstalkd
 
 # 搜索引擎
 
-#solr # Apache Solr搜索引擎 (3.3B)
-#elasticsearch # Elasticsearch搜索引擎 (3.0B)
-#splunk # Splunk搜索引擎 (2.2B)
-#graylog # Graylog搜索引擎 (1.9B)
-#kibana # Kibana数据可视化工具 (2.9B)
+
+# Apache Solr搜索引擎 (3.3B)
+#solr
+
+# Elasticsearch搜索引擎 (3.0B)
+#elastic
+
+# Splunk搜索引擎 (2.2B)search
+#splunk
+
+# Graylog搜索引擎 (1.9B)
+#graylog
+
+# Kibana数据可视化工具 (2.9B)
+#kibana
 
 # 自动化构建工具
 
-#jenkins # Jenkins自动化构建工具 (3.6B)
-#travis # Travis CI自动化构建工具 (2.5B)
-#circleci # CircleCI自动化构建工具 (2.2B)
-#gitlab-ci # GitLab CI自动化构建工具 (1.9B)
-#bitbucket-pipelines # Bitbucket Pipelines自动化构建工具 (1.6B)
+
+# Jenkins自动化构建工具 (3.6B)
+#jenkins
+
+# Travis CI自动化构建工具 (2.5B)
+#travis
+
+# CircleCI自动化构建工具 (2.2B)
+#circleci
+
+# GitLab CI自动化构建工具 (1.9B)
+#gitlab-ci
+
+# Bitbucket Pipelines自动化构建工具 (1.6B)
+#bitbucket-pipelines
 
 # 配置管理
 
-#zookeeper # Apache ZooKeeper配置管理 (3.1B)
-#etcd # etcd配置管理 (2.5B)
-#consul # Consul配置管理 (2.2B)
-#vault # Vault配置管理 (1.9B)
-#ansible # Ansible配置管理 (1.6B)
+
+# Apache ZooKeeper配置管理 (3.1B)
+#zooke
+
+# etcd配置管理 (2.5B)eper
+#etcd
+
+# Consul配置管理 (2.2B)
+#consul
+
+# Vault配置管理 (1.9B)
+#vault
+
+# Ansible配置管理 (1.6B)
+#ansible
 
 # 数据可视化工具
 
-#kibana # Kibana数据可视化工具 (2.9B)
-#grafana # Grafana数据可视化工具 (2.2B)
-#tableau # Tableau数据可视化工具 (1.9B)
-#powerbi # Power BI数据可视化工具 (1.6B)
-#d3.js # D3.js数据可视化工具 (1.4B)
+
+# Kibana数据可视化工具 (2.9B)
+#kibana
+
+# Grafana数据可视化工具 (2.2B)
+#grafana
+
+# Tableau数据可视化工具 (1.9B)
+#tableau
+
+# Power BI数据可视化工具 (1.6B)
+#powerb
+
+# D3.js数据可视化工具 (1.4B)i
+#d3.js
 
 # Docker和Kubernetes
 
-#docker # Docker容器引擎 (4.3B)
-#kubernetes # Kubernetes容器编排 (3.5B)
-#openshift # OpenShift容器平台 (2.9B)
-#cloud-foundry # Cloud Foundry容器平台 (2.2B)
+
+# Docker容器引擎 (4.3B)
+#docker
+
+# Kubernetes容器编排 (3.5B)
+#kubernetes
+
+# OpenShift容器平台 (2.9B)
+#openshift
+
+# Cloud Foundry容器平台 (2.2B)
+#cloud-foundry
 
 # 安全
 
-#clair # Clair安全扫描工具 (1.9B)
-#coreos/clair # CoreOS Clair安全扫描工具 (1.6B)
-#anchore # Anchore安全扫描工具 (1.4B)
-#docker-bench # Docker Bench安全扫描工具 (1.2B)
+
+# Clair安全扫描工具 (1.9B)
+#clair
+
+# CoreOS Clair安全扫描工具 (1.6B)
+#coreos/c
+
+# Anchore安全扫描工具 (1.4B)lair
+#anchore
+
+# Docker Bench安全扫描工具 (1.2B)
+#docker-bench
 
 # 监控
 
-#prometheus # Prometheus监控工具 (2.9B)
-#grafana # Grafana监控工具 (2.2B)
-#newrelic # New Relic监控工具 (1.9B)
-#datadog # Datadog监控工具 (1.6B)
-#sensu # Sensu监控工具 (1.4B)
+
+# Prometheus监控工具 (2.9B)
+#promethe
+
+# Grafana监控工具 (2.2B)us
+#grafana
+
+# New Relic监控工具 (1.9B)
+#newrelic
+
+# Datadog监控工具 (1.6B)
+#datado
+
+# Sensu监控工具 (1.4B)g
+#sensu
 
 # 存储
 
-#ceph # Ceph分布式存储 (2.5B)
-#gluster # Gluster分布式存储 (2.2B)
-#nfs # NFS网络文件系统 (1.9B)
-#samba # Samba网络文件系统 (1.6B)
-#minio # Minio对象存储 (1.4B)
+
+# Ceph分布式存储 (2.5B)
+#ceph
+
+# Gluster分布式存储 (2.2B)
+#glus
+
+# NFS网络文件系统 (1.9B)ter
+#nfs
+
+# Samba网络文件系统 (1.6B)
+#samba
+
+# Minio对象存储 (1.4B)
+#minio
 
 
 # 开发工具
 
-#git # Git版本控制工具 (2.5B)
-#svn # SVN版本控制工具 (1.9B)
-#jenkins # Jenkins自动化构建工具 (3.6B)
-#travis # Travis CI自动化构建工具 (2.5B)
-#circleci # CircleCI自动化构建工具 (2.2B)
+
+# Git版本控制工具 (2.5B)
+#git
+
+# SVN版本控制工具 (1.9B)
+#svn
+
+# Jenkins自动化构建工具 (3.6B)
+#jenkins
+
+# Travis CI自动化构建工具 (2.5B)
+#travis
+
+# CircleCI自动化构建工具 (2.2B)
+#circleci
