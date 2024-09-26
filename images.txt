@@ -199,5 +199,7 @@ golang:1.23-alpine
 
 # 工具
 centralx/clash
+ghcr.io/sagernet/sing-box
+
 
 
