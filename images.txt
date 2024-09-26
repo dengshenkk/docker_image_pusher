@@ -198,6 +198,6 @@ golang:1.23-alpine
 #circleci
 
 # 工具
-clash-lan/clash
+centralx/clash
 
 
